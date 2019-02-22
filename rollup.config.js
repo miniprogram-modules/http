@@ -27,7 +27,7 @@ process.env.NODE_ENV = 'production'
 const toPath = (...paths) => join(__dirname, ...paths)
 
 // 默认对 js 进行压缩输出
-const isMinify = (v => v === undefined || v)(process.env.npm_config_minify)
+// const isMinify = (v => v === undefined || v)(process.env.npm_config_minify)
 
 const env = {
   __VERSION__: version,
