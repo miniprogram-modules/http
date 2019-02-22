@@ -1,6 +1,6 @@
 {
   "name": "miniprogram-plugin-http",
-  "version": "0.0.0",
+  "version": "0.0.1-0",
   "description": "小程序 http 请求插件",
   "main": "./dist/lib.common.js",
   "module": "./dist/lib.esm.js",
